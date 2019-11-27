@@ -1,0 +1,665 @@
+<!DOCTYPE HTML>
+<html lang="en" >
+    
+    <head>
+        
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>会员连带率分析 | 一. Excel的基本使用</title>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 2.6.7">
+        
+        
+        <meta name="HandheldFriendly" content="true"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+        <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+        
+    <link rel="stylesheet" href="../gitbook/style.css">
+    
+        
+        <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-highlight/website.css">
+        
+    
+        
+        <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-search/search.css">
+        
+    
+        
+        <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-fontsettings/website.css">
+        
+    
+    
+
+        
+    
+    
+    <link rel="next" href="../会员分析/11_复购率分析.html" />
+    
+    
+    <link rel="prev" href="../会员分析/9_各地区会销比.html" />
+    
+
+        
+    </head>
+    <body>
+        
+        
+    <div class="book"
+        data-level="2.10"
+        data-chapter-title="会员连带率分析"
+        data-filepath="会员分析/10_会员连带率分析.md"
+        data-basepath=".."
+        data-revision="Thu Oct 17 2019 18:16:58 GMT+0800 (CST)"
+        data-innerlanguage="">
+    
+
+<div class="book-summary">
+    <nav role="navigation">
+        <ul class="summary">
+            
+            
+            
+            
+
+            
+
+            
+    
+        <li class="chapter " data-level="0" data-path="index.html">
+            
+                
+                    <a href="../index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                        Introduction
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1" >
+            
+            <span><b>1.</b> 一. Excel的基本使用</span>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1" data-path="01_Excel的基本概念.html">
+            
+                
+                    <a href="../01_Excel的基本概念.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.1.</b>
+                        
+                        Excel的基本概念
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="02_Excel的基本操作.html">
+            
+                
+                    <a href="../02_Excel的基本操作.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.2.</b>
+                        
+                        Excel的基本操作
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="03_Excel的函数.html">
+            
+                
+                    <a href="../03_Excel的函数.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.3.</b>
+                        
+                        Excel的常用函数
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="04_Excel的透视表.html">
+            
+                
+                    <a href="../04_Excel的透视表.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.4.</b>
+                        
+                        Excel的透视表
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="05_常见图形.html">
+            
+                
+                    <a href="../05_常见图形.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.5.</b>
+                        
+                        Excel的常见图形
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="06_数据分析流程.html">
+            
+                
+                    <a href="../06_数据分析流程.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.6.</b>
+                        
+                        Excel的数据分析流程
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2" >
+            
+            <span><b>2.</b> 二. 会员分析</span>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1" data-path="会员分析/1_会员分析概述.html">
+            
+                
+                    <a href="../会员分析/1_会员分析概述.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.1.</b>
+                        
+                        会员分析概述
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" data-path="会员分析/2_会员存量增量分析.html">
+            
+                
+                    <a href="../会员分析/2_会员存量增量分析.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.2.</b>
+                        
+                        会员存量增量分析
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3" data-path="会员分析/3_会员增量等级分布.html">
+            
+                
+                    <a href="../会员分析/3_会员增量等级分布.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.3.</b>
+                        
+                        会员增量等级分布
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4" data-path="会员分析/4_等级分布占比分析.html">
+            
+                
+                    <a href="../会员分析/4_等级分布占比分析.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.4.</b>
+                        
+                        等级分布占比分析
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5" data-path="会员分析/5_总量等级分布.html">
+            
+                
+                    <a href="../会员分析/5_总量等级分布.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.5.</b>
+                        
+                        总量等级分布
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.6" data-path="会员分析/6_电商与线下会员增量分析.html">
+            
+                
+                    <a href="../会员分析/6_电商与线下会员增量分析.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.6.</b>
+                        
+                        电商与线下会员增量分析
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.7" data-path="会员分析/7_地区会员店均分析.html">
+            
+                
+                    <a href="../会员分析/7_地区会员店均分析.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.7.</b>
+                        
+                        地区店均会员分析
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.8" data-path="会员分析/8_门店渠道会员明细.html">
+            
+                
+                    <a href="../会员分析/8_门店渠道会员明细.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.8.</b>
+                        
+                        门店渠道会员明细
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.9" data-path="会员分析/9_各地区会销比.html">
+            
+                
+                    <a href="../会员分析/9_各地区会销比.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.9.</b>
+                        
+                        各地区会销比
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter active" data-level="2.10" data-path="会员分析/10_会员连带率分析.html">
+            
+                
+                    <a href="../会员分析/10_会员连带率分析.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.10.</b>
+                        
+                        会员连带率分析
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.11" data-path="会员分析/11_复购率分析.html">
+            
+                
+                    <a href="../会员分析/11_复购率分析.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.11.</b>
+                        
+                        复购率分析
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="3" >
+            
+            <span><b>3.</b> 三. 全渠道分析</span>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="3.1" data-path="全渠道分析/0_全渠道分析概述.html">
+            
+                
+                    <a href="../全渠道分析/0_全渠道分析概述.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.1.</b>
+                        
+                        全渠道分析概述
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.2" data-path="全渠道分析/1_全渠道展销比.html">
+            
+                
+                    <a href="../全渠道分析/1_全渠道展销比.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.2.</b>
+                        
+                        全渠道占销比分析
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.3" data-path="全渠道分析/2_各地区门店参与度.html">
+            
+                
+                    <a href="../全渠道分析/2_各地区门店参与度.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.3.</b>
+                        
+                        各地区门店参与度分析
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.4" data-path="全渠道分析/3_接单主动性分析.html">
+            
+                
+                    <a href="../全渠道分析/3_接单主动性分析.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.4.</b>
+                        
+                        接单主动性分析分析
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.5" data-path="全渠道分析/4_月店均发货量分析.html">
+            
+                
+                    <a href="../全渠道分析/4_月店均发货量分析.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.5.</b>
+                        
+                        季店均发货量分析
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.6" data-path="全渠道分析/5_门店发货差错率.html">
+            
+                
+                    <a href="../全渠道分析/5_门店发货差错率.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.6.</b>
+                        
+                        门店发货差错率分析
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.7" data-path="全渠道分析/6_PPT报告.html">
+            
+                
+                    <a href="../全渠道分析/6_PPT报告.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.7.</b>
+                        
+                        PPT报告
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.8" data-path="全渠道分析/7_奖励表.html">
+            
+                
+                    <a href="../全渠道分析/7_奖励表.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.8.</b>
+                        
+                        奖励表
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+
+            
+            <li class="divider"></li>
+            <li>
+                <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+                    Published with GitBook
+                </a>
+            </li>
+            
+        </ul>
+    </nav>
+</div>
+
+    <div class="book-body">
+        <div class="body-inner">
+            <div class="book-header" role="navigation">
+    <!-- Actions Left -->
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../" >一. Excel的基本使用</a>
+    </h1>
+</div>
+
+            <div class="page-wrapper" tabindex="-1" role="main">
+                <div class="page-inner">
+                
+                
+                    <section class="normal" id="section-">
+                    
+                        <h3 id="&#x4F1A;&#x5458;&#x8FDE;&#x5E26;&#x7387;&#x5206;&#x6790;">&#x4F1A;&#x5458;&#x8FDE;&#x5E26;&#x7387;&#x5206;&#x6790;</h3>
+<p><img src="../imgs/11_10_20_&#x9500;&#x552E;&#x989D;.png" alt=""></p>
+<p>&#x200B;                                                                                &#x9500;&#x552E;&#x989D;&#x7684;&#x675C;&#x90A6;&#x5206;&#x6790;&#x56FE;</p>
+<ul>
+<li><p>&#x9500;&#x552E;&#x989D;=&#x6210;&#x4EA4;&#x5355;&#x6570;&#x2716;&#xFE0F;&#x5BA2;&#x5355;&#x4EF7;&#x3002;&#x6240;&#x4EE5;&#x63D0;&#x9AD8;&#x9500;&#x552E;&#x989D;&#xFF0C;&#x9700;&#x8981;&#x63D0;&#x9AD8;<strong>&#x6210;&#x4EA4;&#x5355;&#x6570;&#x3001;&#x5BA2;&#x5355;&#x4EF7;</strong>&#xFF1A;</p>
+</li>
+<li><p>&#x63D0;&#x9AD8;&#x6210;&#x4EA4;&#x5355;&#x6570;&#xFF0C;&#x9700;&#x8981;&#x63D0;&#x9AD8;&#x8DEF;&#x8FC7;&#x4EBA;&#x6570;&#x3001;&#x8FDB;&#x5E97;&#x7387;&#x548C;&#x6210;&#x4EA4;&#x7387;&#x3002;</p>
+<ul>
+<li>&#x63D0;&#x9AD8;&#x6210;&#x4EA4;&#x7387;, &#x57F9;&#x8BAD;&#x5BFC;&#x8D2D;,  &#x5956;&#x52B1;&#x673A;&#x5236;&#x3002;</li>
+<li>&#x201C;&#x8DEF;&#x8FC7;&#x4EBA;&#x6570;&#x201D;&#x8DDF;&#x5546;&#x5708;&#x3001;&#x4F4D;&#x7F6E;&#x6709;&#x5173;&#xFF0C;&#x662F;&#x95E8;&#x5E97;&#x9009;&#x5740;&#x9700;&#x8981;&#x8003;&#x8651;&#x7684;&#xFF0C;&#x65E5;&#x5E38;&#x7ECF;&#x8425;&#x4E2D;&#x9760;&#x95E8;&#x5E97;&#x7684;&#x529B;&#x91CF;&#x5F88;&#x96BE;&#x5F71;&#x54CD;&#x3002;</li>
+<li>&#x63D0;&#x5347;&#x201C;&#x8FDB;&#x5E97;&#x7387;&#x201D;&#x867D;&#x53EF;&#x505A;&#x4E9B;&#x5DE5;&#x4F5C;&#xFF0C;&#x4E0D;&#x8FC7;&#x8FDB;&#x5E97;&#x7387;&#x7684;&#x76D1;&#x63A7;&#x9700;&#x8981;&#x989D;&#x5916;&#x786C;&#x4EF6;&#xFF0C;&#x5F88;&#x591A;&#x95E8;&#x5E97;&#x4E0D;&#x4FBF;&#x76F4;&#x63A5;&#x7EDF;&#x8BA1;&#x3001;&#x8DDF;&#x8E2A;&#x6539;&#x8FDB;&#x3002;&#x6240;&#x4EE5;&#x5927;&#x90E8;&#x5206;&#x95E8;&#x5E97;&#x8FD8;&#x662F;&#x76F4;&#x63A5;&#x8DDF;&#x8E2A;<strong>&#x6210;&#x4EA4;&#x5355;&#x6570;</strong>&#x672C;&#x8EAB;&#xFF0C;&#x5E76;&#x57F9;&#x8BAD;&#x5458;&#x5DE5;&#x60F3;&#x529E;&#x6CD5;&#x6539;&#x8FDB;&#x3002;</li>
+</ul>
+</li>
+<li><p>&#x63D0;&#x9AD8;&#x5BA2;&#x5355;&#x4EF7;&#xFF0C;&#x53EF;&#x505A;&#x7684;&#x4E8B;&#x5C31;&#x591A;&#x4E86;&#x3002;&#x5BA2;&#x5355;&#x4EF7;=&#x4EF6;&#x5355;&#x4EF7;&#x2716;&#xFE0F;&#x8FDE;&#x5E26;&#x7387;&#xFF0C;&#x4EF6;&#x5355;&#x4EF7;=&#x5546;&#x54C1;&#x5E73;&#x5747;&#x96F6;&#x552E;&#x4EF7;&#x2716;&#xFE0F;&#x9500;&#x552E;&#x6298;&#x6263;&#x3002;</p>
+<ul>
+<li><p>&#x5546;&#x54C1;&#x7684;&#x5E73;&#x5747;&#x96F6;&#x552E;&#x4EF7;&#x3002;&#x5B8F;&#x89C2;&#x6765;&#x8BF4;&#x8DDF;&#x54C1;&#x724C;&#x5B9A;&#x4F4D;&#x3001;&#x6D88;&#x8D39;&#x8005;&#x6D88;&#x8D39;&#x6C34;&#x5E73;&#x7B49;&#x606F;&#x606F;&#x76F8;&#x5173;&#xFF0C;&#x5FAE;&#x89C2;&#x6765;&#x8BF4;&#x5B9A;&#x4EF7;&#x7B56;&#x7565;&#x3001;&#x5546;&#x54C1;&#x7ED3;&#x6784;&#x7B49;&#x4F1A;&#x5F71;&#x54CD;&#x96F6;&#x552E;&#x4EF7;&#x3002;&#x5B9A;&#x4EF7;&#x8FC7;&#x9AD8;&#x53EF;&#x80FD;&#x4F1A;&#x964D;&#x4F4E;&#x9500;&#x91CF;&#xFF0C;&#x8FD9;&#x9700;&#x8981;&#x5546;&#x5BB6;&#x603B;&#x90E8;&#x7EFC;&#x5408;&#x5206;&#x6790;&#x3002;</p>
+</li>
+<li><p>&#x9500;&#x552E;&#x6298;&#x6263;&#xFF0C;&#x867D;&#x7136;&#x641E;&#x4FC3;&#x9500;&#x6D3B;&#x52A8;&#x53EF;&#x80FD;&#x63D0;&#x9AD8;&#x6210;&#x4EA4;&#x5355;&#x6570;&#xFF0C;&#x4F46;&#x5229;&#x6DA6;&#x4E0B;&#x964D;&#x53EF;&#x80FD;&#x5F97;&#x4E0D;&#x507F;&#x5931;&#xFF0C;&#x9700;&#x8C28;&#x614E;&#x4F7F;&#x7528;&#x3002;</p>
+</li>
+<li><p><strong>&#x8FDE;&#x5E26;&#x7387;</strong>&#xFF0C;&#x6307;&#x987E;&#x5BA2;&#x6BCF;&#x6B21;&#x8D2D;&#x7269;&#x8D2D;&#x4E70;&#x4E86;&#x51E0;&#x4EF6;&#x5546;&#x54C1;&#x3002;&#x662F;&#x6700;&#x91CD;&#x8981;&#x4E5F;&#x6700;&#x53EF;&#x80FD;&#x901A;&#x8FC7;&#x95E8;&#x5E97;&#x52AA;&#x529B;&#x53BB;&#x5F71;&#x54CD;&#x7684;&#x4E00;&#x4E2A;&#x6307;&#x6807;&#x3002;&#x5F71;&#x54CD;&#x8FDE;&#x5E26;&#x7387;&#x7684;&#x56E0;&#x7D20;&#x5F88;&#x591A;. </p>
+<p><img src="../imgs/11_10_19_&#x5F71;&#x54CD;&#x8FDE;&#x5E26;&#x7387;&#x7684;&#x56E0;&#x7D20;.png" alt=""></p>
+</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li>&#x8BA1;&#x7B97;&#x516C;&#x5F0F;<ul>
+<li>&#x8FDE;&#x5E26;&#x7387; = &#x6D88;&#x8D39;&#x6570;&#x91CF; / &#x8BA2;&#x5355;&#x6570;&#x91CF;</li>
+</ul>
+</li>
+<li>&#x4F5C;&#x7528;: &#x901A;&#x8FC7;&#x63D0;&#x9AD8;&#x8FDE;&#x5E26;&#x7387;, &#x53EF;&#x4EE5;&#x63D0;&#x9AD8;&#x5BA2;&#x5355;&#x4EF7;, &#x4ECE;&#x800C;&#x63D0;&#x9AD8;&#x9500;&#x552E;&#x91D1;&#x989D; &#x548C; &#x5229;&#x6DA6;&#x7387;</li>
+</ul>
+<h2 id="&#x76EE;&#x7684;">&#x76EE;&#x7684;</h2>
+<ul>
+<li>&#x67E5;&#x770B;&#x6BCF;&#x4E00;&#x4E2A;&#x533A;&#x57DF;&#x7684;&#x8FDE;&#x5E26;&#x7387;. 
+  <img src="../imgs/11_01_09_&#x533A;&#x57DF;&#x4F1A;&#x5458;&#x8FDE;&#x5E26;&#x7387;.png" alt=""></li>
+</ul>
+<h2 id="&#x83B7;&#x53D6;&#x6570;&#x636E;">&#x83B7;&#x53D6;&#x6570;&#x636E;</h2>
+<ul>
+<li>&#x4F1A;&#x5458;&#x6D88;&#x8D39;&#x62A5;&#x8868;.xlsx, &#x4F1A;&#x5458;&#x6D88;&#x8D39;&#x8BB0;&#x5F55;</li>
+<li>&#x95E8;&#x5E97;&#x4FE1;&#x606F;&#x8868;.XLSX, &#x4E3B;&#x8981;&#x7528;&#x5230;&#x5730;&#x533A;&#x7F16;&#x7801;&#x8FD9;&#x4E2A;&#x5B57;&#x6BB5;</li>
+</ul>
+<h2 id="&#x6570;&#x636E;&#x5904;&#x7406;">&#x6570;&#x636E;&#x5904;&#x7406;</h2>
+<ul>
+<li>&#x4F1A;&#x5458;&#x6D88;&#x8D39;&#x62A5;&#x8868;, &#x6DFB;&#x52A0;&#x5E74;&#x6708;, &#x6DFB;&#x52A0;&#x5730;&#x533A;&#x7F16;&#x7801;(&#x524D;&#x9762;&#x5DF2;&#x7ECF;&#x505A;&#x8FC7;&#x4E86;)</li>
+</ul>
+<h2 id="&#x6570;&#x636E;&#x5206;&#x6790;">&#x6570;&#x636E;&#x5206;&#x6790;</h2>
+<ul>
+<li><p>&#x6B65;&#x9AA4;</p>
+<ul>
+<li>&#x7EDF;&#x8BA1;&#x8BA2;&#x5355;&#x7684;&#x6570;&#x91CF;</li>
+<li>&#x7EDF;&#x8BA1;&#x6D88;&#x8D39;&#x6570;&#x91CF;</li>
+<li>&#x5408;&#x5E76;&#x6570;&#x636E;: &#x62F7;&#x8D1D; &#x8BA2;&#x5355;&#x7684;&#x6570;&#x91CF;,&#x6D88;&#x8D39;&#x6570;&#x91CF;&#x5230;&#x65B0;&#x5DE5;&#x4F5C;&#x8868;</li>
+<li>&#x8BA1;&#x7B97;&#x8FDE;&#x5E26;&#x7387;</li>
+</ul>
+</li>
+<li><p>&#x6839;&#x636E;&#x5E74;&#x6708;,&#x5730;&#x533A;&#x7F16;&#x7801;, &#x5BF9;&#x8BA2;&#x5355;&#x7F16;&#x53F7;&#x53BB;&#x91CD;
+  <img src="../imgs/11_10_01_&#x6784;&#x5EFA;&#x8FDE;&#x5E26;&#x7387;&#x900F;&#x89C6;&#x8868;.png" alt="">
+  <img src="../imgs/11_10_02_&#x6784;&#x5EFA;&#x8BA2;&#x5355;&#x53BB;&#x91CD;_&#x900F;&#x89C6;&#x8868;.png" alt="">
+  <img src="../imgs/11_10_03_&#x6784;&#x5EFA;&#x8BA2;&#x5355;&#x53BB;&#x91CD;_&#x900F;&#x89C6;&#x8868;.png" alt="">
+  <img src="../imgs/11_10_04_&#x62F7;&#x8D1D;_&#x6784;&#x5EFA;&#x8BA2;&#x5355;&#x53BB;&#x91CD;&#x6570;&#x636E;.png" alt=""></p>
+</li>
+<li><p>&#x7EDF;&#x8BA1;&#x8BA2;&#x5355;&#x7684;&#x6570;&#x91CF;
+  <img src="../imgs/11_10_04_&#x7EDF;&#x8BA1;&#x8BA2;&#x5355;&#x6570;&#x91CF;.png" alt="">
+  <img src="../imgs/11_10_05_&#x7EDF;&#x8BA1;&#x8BA2;&#x5355;&#x6570;&#x91CF;.png" alt="">
+  <img src="../imgs/11_10_06_&#x7EDF;&#x8BA1;&#x8BA2;&#x5355;&#x6570;&#x91CF;_1.png" alt="">
+  <img src="../imgs/11_10_06_&#x7EDF;&#x8BA1;&#x8BA2;&#x5355;&#x6570;&#x91CF;.png" alt=""></p>
+</li>
+<li><p>&#x7EDF;&#x8BA1;&#x6D88;&#x8D39;&#x6570;&#x91CF;&#x4E0E;&#x6D88;&#x8D39;&#x91D1;&#x989D;
+  <img src="../imgs/11_10_07_&#x6784;&#x5EFA;&#x7EDF;&#x8BA1;&#x6D88;&#x8D39;&#x6570;&#x91CF;_&#x6D88;&#x8D39;&#x91D1;&#x989D;&#x900F;&#x89C6;&#x8868;.png" alt="">
+  <img src="../imgs/11_10_08_&#x6784;&#x5EFA;&#x7EDF;&#x8BA1;&#x6D88;&#x8D39;&#x6570;&#x91CF;_&#x6D88;&#x8D39;&#x91D1;&#x989D;&#x900F;&#x89C6;&#x8868;.png" alt="">
+  <img src="../imgs/11_10_03_&#x6784;&#x5EFA;&#x8BA2;&#x5355;&#x53BB;&#x91CD;_&#x900F;&#x89C6;&#x8868;.png" alt=""></p>
+</li>
+<li><p>&#x5408;&#x5E76;&#x6570;&#x636E;: &#x62F7;&#x8D1D; &#x8BA2;&#x5355;&#x7684;&#x6570;&#x91CF;,&#x6D88;&#x8D39;&#x6570;&#x91CF;,&#x6D88;&#x8D39;&#x91D1;&#x989D; &#x5230;&#x65B0;&#x5DE5;&#x4F5C;&#x8868;
+  <img src="../imgs/11_10_09_&#x62F7;&#x8D1D;&#x6570;&#x636E;.png" alt=""></p>
+</li>
+<li><p>&#x8BA1;&#x7B97;&#x8FDE;&#x5E26;&#x7387;
+  <img src="../imgs/11_10_10_&#x6784;&#x5EFA;&#x8FDE;&#x5E26;&#x7387;&#x900F;&#x89C6;&#x8868;.png" alt="">
+  <img src="../imgs/11_10_11_&#x6784;&#x5EFA;&#x8FDE;&#x5E26;&#x7387;&#x900F;&#x89C6;&#x8868;.png" alt="">
+  <img src="../imgs/11_10_12_&#x6784;&#x5EFA;&#x8FDE;&#x5E26;&#x7387;&#x900F;&#x89C6;&#x8868;.png" alt="">
+  <img src="../imgs/11_10_13_&#x6784;&#x5EFA;&#x8FDE;&#x5E26;&#x7387;&#x900F;&#x89C6;&#x8868;.png" alt=""></p>
+</li>
+<li><p>&#x7F8E;&#x5316;&#x8FDE;&#x5E26;&#x7387;&#x8868;</p>
+<p>  <img src="../imgs/11_01_09_&#x533A;&#x57DF;&#x4F1A;&#x5458;&#x8FDE;&#x5E26;&#x7387;.png" alt=""></p>
+</li>
+</ul>
+
+                    
+                    </section>
+                
+                
+                </div>
+            </div>
+        </div>
+
+        
+        <a href="../会员分析/9_各地区会销比.html" class="navigation navigation-prev " aria-label="Previous page: 各地区会销比"><i class="fa fa-angle-left"></i></a>
+        
+        
+        <a href="../会员分析/11_复购率分析.html" class="navigation navigation-next " aria-label="Next page: 复购率分析"><i class="fa fa-angle-right"></i></a>
+        
+    </div>
+</div>
+
+        
+<script src="../gitbook/app.js"></script>
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-search/lunr.min.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-search/search.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-sharing/buttons.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-fontsettings/buttons.js"></script>
+    
+
+<script>
+require(["gitbook"], function(gitbook) {
+    var config = {"highlight":{},"search":{"maxIndexSize":1000000},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2}};
+    gitbook.start(config);
+});
+</script>
+
+        
+    </body>
+    
+</html>
